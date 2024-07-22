@@ -3,6 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Open Graph Title" />
+    <meta
+      property="og:url"
+      content="https://obitrim.github.io/html-playground/" />
+    <meta
+      property="og:image"
+      content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s" />
+    <meta property="og:description" content="Some website description" />
+
     <title>Canvas</title>
     <style>
       *,
@@ -18,12 +29,12 @@
     </style>
   </head>
   <body>
-    <a href="/og.html">OG</a>
+    <a href="/og.html">Open Graph</a>
     <canvas id="canvas"></canvas>
     <!-- <script type="text/javascript" src="dat.gui.min.js"></script>
     <script src="./js/brushes.js" type="module"></script>
     <script src="./js/canvas.js" type="module"></script> -->
-    <script type="module">
+    <!-- <script type="module">
       console.time("Requests: Promises");
       for (let i = 1; i <= 100; i++) {
         fetch(`https://jsonplaceholder.typicode.com/todos/${i}`).then(
@@ -43,6 +54,6 @@
         // console.log(json);
       }
       console.timeEnd("Requests: Async await");
-    </script>
+    </script> -->
   </body>
 </html>
